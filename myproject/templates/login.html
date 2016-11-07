@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <h1>Enter data for API</h1>
+  <form action="" method="POST" name="login">
+    {{form.hidden_tag()}}
+      <input type = "text" name = "text">
+      <input type = "submit" name = "my-form" value= "Send">
+  </form>
+{% endblock %}
